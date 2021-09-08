@@ -2,9 +2,9 @@
 
 
 ## Table of contents
-
+- [Project desctiption](#Aspects-tools)
 - [About](#About)
-- [General-info](#general-info)
+- [General info](#general-info)
 - [Apects and tools](#Aspects-tools)
 
 ### About:
