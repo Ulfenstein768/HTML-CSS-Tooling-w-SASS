@@ -15,7 +15,7 @@ Sass is a CSS pre-processor that adds a lot of nice and useful tools to CSS auth
 ### about:
 This is an assignment about Sass.
     <br>
-by Úlfur Þór Böðvarsson
+<spaceba> by Úlfur Þór Böðvarsson
 
 ### General-info
 
