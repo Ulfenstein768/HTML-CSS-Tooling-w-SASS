@@ -13,11 +13,11 @@ Projects derscription:
 Sass is a CSS pre-processor that adds a lot of nice and useful tools to CSS authoring. It has been widely used for years and shows no sign of going anyway. Even the newer styling technologies borrow from its concepts, which is why you will learn about this tool in this Guide.
 
 ### About:
-This is an assignment about Sass.
+This is an assignment about Sass tooling.
     <br>
  by Úlfur Þór Böðvarsson
 
-### General-info
+### General-info:
 
 This is an HTML file, that is styled with scss files. I am practicing the use of sass and its aspects / tools. <br>
 I know that when you use Sass you usually are making, or managing changes to a major websites (very big with alot of info). <br>
@@ -25,6 +25,7 @@ I know that when you use Sass you usually are making, or managing changes to a m
 
 
 ### Aspects-tools
+these are the aspect / features I used in this assignment: 
 - Variables.
 - Nesting.
 - Operators. 
