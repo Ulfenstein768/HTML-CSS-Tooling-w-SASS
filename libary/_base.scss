@@ -1,11 +1,14 @@
+/* Sass Mixin Included */ 
 
 body{
     @include main-body;
 }
 
+/* Variables used instead of dry css code over and over again */
+
 h1{
-    color: $primary; 
-    font-family: $header-font;
+    color: $primary-color; 
+    font-family: $primary-font;
     font-size: $font-size-bigger;
     display: flex;
     justify-content: center;
@@ -13,10 +16,10 @@ h1{
 }
 
 footer{
-    color: $p-color1;
+    color: $secondary-color1;
     font-size: $font-size-small;
     margin-top: auto;
-    font-family: $p-font;
+    font-family: $secondary-font;
     text-transform: uppercase;
     
     display: flex;

@@ -1,15 +1,18 @@
-/* variables and functions */
-/* headers color */
-/* paragraph colors */
+/* Imported different stylesheets, so there is not alot of css in just one big file */
+/* variables set in scss file */
+/* Sass Mixins */
+/* Colors */
 /* text sizes */
 /* Fonts */
 /* padding*/
 /* base and layout */
+/* Sass Mixin Included */
 body {
   background-color: #222f3e;
   min-height: 100%;
 }
 
+/* Variables used instead of dry css code over and over again */
 h1 {
   color: #ff4757;
   font-family: "Poppins", sans-serif;
@@ -20,7 +23,7 @@ h1 {
 }
 
 footer {
-  color: #dcdde1;
+  color: #f5f6fa;
   font-size: 1rem;
   margin-top: auto;
   font-family: "PT Sans", sans-serif;
@@ -30,7 +33,8 @@ footer {
   justify-content: flex-end;
 }
 
-/* Cool card */
+/* information on page */
+/* Variables used instead of dry css code over and over again */
 .card {
   display: block;
   margin: 0.75rem;
@@ -39,10 +43,11 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* Sass Mixin Included */
 }
 .card .card-title {
   font-size: 2rem;
-  color: #dcdde1;
+  color: #c4f1f3;
 }
 .card a {
   text-decoration: none;
@@ -50,12 +55,12 @@ footer {
 }
 .card a:hover {
   text-decoration: none;
-  color: #dcdde1;
+  color: #f5f6fa;
 }
 .card .card-body {
   font-size: 2rem;
   font-family: "PT Sans", sans-serif;
-  color: #dcdde1;
+  color: #f5f6fa;
 }
 .card .card-body a {
   text-decoration: none;
@@ -63,5 +68,5 @@ footer {
 }
 .card .card-body a:hover {
   text-decoration: none;
-  color: #dcdde1;
+  color: #f5f6fa;
 }

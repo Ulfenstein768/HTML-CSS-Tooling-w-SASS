@@ -2,15 +2,19 @@
 
 
 ## Table of contents
-- [Project desctiption](#Aspects-tools)
-- [About](#About)
+- [Project desctiption](#Description)
+- [About](#about)
 - [General info](#general-info)
 - [Apects and tools](#Aspects-tools)
 
-### About:
+### Description
+Sass is a CSS pre-processor that adds a lot of nice and useful tools to CSS authoring. It has been widely used for years and shows no sign of going anyway. Even the newer styling technologies borrow from its concepts, which is why you will learn about this tool in this Guide.
+
+### about:
 This is an assignment about Sass.
     <br>
-By: Úlfur Þór Böðvarsson
+    <br>
+by: Úlfur Þór Böðvarsson
 
 ### General-info
 
@@ -18,7 +22,7 @@ By: Úlfur Þór Böðvarsson
 
 -- 
 
-# Aspects-tools
+### Aspects-tools
 - Variables.
 - Nesting.
 - Operators. 

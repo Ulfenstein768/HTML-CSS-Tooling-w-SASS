@@ -1,9 +1,9 @@
-/* variables and functions */ 
+/* Imported different stylesheets, so there is not alot of css in just one big file */ 
+/* variables set in scss file */
 @import 'variables';
 
 /* base and layout */
 @import 'base';
 
-/* Cool card */ 
-
+/* information on page */
 @import 'card';

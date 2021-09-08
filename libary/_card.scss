@@ -1,7 +1,9 @@
+/* Variables used instead of dry css code over and over again */
+
 .card{
     display: block;
     margin: $base-margin;
-    font-family: $header-font;
+    font-family: $primary-font;
 
     display: flex;
     justify-content: center;
@@ -10,8 +12,10 @@
 
     .card-title{
         font-size: $base-font-size;
-        color: $p-color1;
+        color: $secondary-color;
         }
+
+    /* Sass Mixin Included */
 
         a{
             @include click-href
@@ -19,20 +23,20 @@
 
         a:hover{
             text-decoration: none;
-            color: $p-color1;
+            color: $secondary-color1;
         }
 
         .card-body{
             font-size: $base-font-size;
-            font-family: $p-font;
-            color: $p-color1;
+            font-family: $secondary-font;
+            color: $secondary-color1;
 
             a{
                 @include click-href
             }
             a:hover{
                 text-decoration: none;
-                color: $p-color1;
+                color: $secondary-color1;
             }
     }
 }
