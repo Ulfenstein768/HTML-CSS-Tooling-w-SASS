@@ -18,7 +18,7 @@ By: Úlfur Þór Böðvarsson
 
 -- 
 
-# Aspects-tools used in this file
+# Aspects-tools
 - Variables.
 - Nesting.
 - Operators. 
