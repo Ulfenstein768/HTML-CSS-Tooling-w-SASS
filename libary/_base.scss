@@ -1,0 +1,26 @@
+
+body{
+    @include main-body;
+}
+
+h1{
+    color: $primary; 
+    font-family: $header-font;
+    font-size: $font-size-bigger;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+footer{
+    color: $p-color1;
+    font-size: $font-size-small;
+    margin-top: auto;
+    font-family: $p-font;
+    text-transform: uppercase;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+

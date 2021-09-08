@@ -1,0 +1,39 @@
+.card{
+    display: block;
+    margin: $base-margin;
+    font-family: $header-font;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .card-title{
+        font-size: $base-font-size;
+        color: $p-color1;
+        }
+
+        a{
+            @include click-href
+        }
+
+        a:hover{
+            text-decoration: none;
+            color: $p-color1;
+        }
+
+        .card-body{
+            font-size: $base-font-size;
+            font-family: $p-font;
+            color: $p-color1;
+
+            a{
+                @include click-href
+            }
+            a:hover{
+                text-decoration: none;
+                color: $p-color1;
+            }
+    }
+}
+
